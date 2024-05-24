@@ -7,6 +7,10 @@
 
 
 
+
+
+
+
 int Px=1,Py=1;
 int Mx=16,My=16;
 int Vx=46,Vy=18;  
@@ -16,29 +20,35 @@ int i, j;
 
 
 
+
+
+
+
 void gameOver(){
 printf("\033[33m");
-printf(" .d8888b.         d8888 888b     d888 8888888888\n");
-printf("d88P  Y88b       d88888 8888b   d8888 888\n");        
-printf("888    888      d88P888 88888b.d88888 888\n");        
-printf("888            d88P 888 888Y88888P888 8888888\n");  
-printf("888  88888    d88P  888 888 Y888P 888 888i888\n");        
-printf("888    888   d88P   888 888  Y8P  888 888 \n");    
-printf("Y88b  d88P  d8888888888 888   '   888 888\n");  
-printf("'Y8888P88  d88P     888 888       888 8888888888\n\n");
+printf("\t\t\t\t\t\t\t .d8888b.         d8888 888b     d888 8888888888\n");
+printf("\t\t\t\t\t\t\td88P  Y88b       d88888 8888b   d8888 888\n");        
+printf("\t\t\t\t\t\t\t888    888      d88P888 88888b.d88888 888\n");        
+printf("\t\t\t\t\t\t\t888            d88P 888 888Y88888P888 8888888\n");  
+printf("\t\t\t\t\t\t\t888  88888    d88P  888 888 Y888P 888 888i888\n");        
+printf("\t\t\t\t\t\t\t888    888   d88P   888 888  Y8P  888 888 \n");    
+printf("\t\t\t\t\t\t\tY88b  d88P  d8888888888 888   '   888 888\n");  
+printf("\t\t\t\t\t\t\t'Y8888P88  d88P     888 888       888 8888888888\n\n");
                                                  
                                                  
                                                  
-printf(" .d88888b.  888     888 8888888888 8888888b.  888\n");
-printf("d88P'  '88b 888     888 888        888   Y88b 888\n");
-printf("888     888 888     888 888        888    888 888\n");
-printf("888     888 Y88b   d88P 8888888    888   d88P 888\n");
-printf("888     888  Y88b d88P  888        8888888P'  888\n");
-printf("888     888   Y88o88P   888        888 T88b   Y8P\n");
-printf("Y88b. .d88P    Y888P    888        888  T88b   '\n");
-printf(" 'Y88888P'      Y8P     8888888888 888   T88b 888\n");
+printf("\t\t\t\t\t\t\t .d88888b.  888     888 8888888888 8888888b.  888\n");
+printf("\t\t\t\t\t\t\td88P'  '88b 888     888 888        888   Y88b 888\n");
+printf("\t\t\t\t\t\t\t888     888 888     888 888        888    888 888\n");
+printf("\t\t\t\t\t\t\t888     888 Y88b   d88P 8888888    888   d88P 888\n");
+printf("\t\t\t\t\t\t\t888     888  Y88b d88P  888        8888888P'  888\n");
+printf("\t\t\t\t\t\t\t888     888   Y88o88P   888        888 T88b   Y8P\n");
+printf("\t\t\t\t\t\t\tY88b. .d88P    Y888P    888        888  T88b   '\n");
+printf("\t\t\t\t\t\t\t 'Y88888P'      Y8P     8888888888 888   T88b 888\n");
 printf("\033[0m");
 }
+
+
 
 
 void vitoria(){
@@ -52,6 +62,10 @@ printf("  ## ##   ##     ## ##    ## ##          ##    ## ##     ## ##     ## ##
 printf("   ###     #######   ######  ########     ######   #######  ##     ## ##        ######## ########    ##     #######   #######      #######     ########  ########  ######  ##     ## ##       ####  #######  "); return 0;
 printf("\033[0m");
 }
+
+
+
+
 
 
 
@@ -76,6 +90,14 @@ printf("   /                              \\  \n");
 printf("  | Voce desistiu da sua aventura! |\n");
 printf("   \\______________________________/\n");
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -201,6 +223,10 @@ void jogar3() {
 
 
 
+
+
+
+
     while( HP>0){
     system("cls");
    
@@ -263,22 +289,7 @@ printf("\033[0m");
             Py--;
     }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
     break;
    
     case 'a':
@@ -292,6 +303,7 @@ printf("\033[0m");
     }
     if(mapa2[39][0] == '='&& Py==39 && Px==1){  
            vitoria();
+           system("pause");
                 }
     if(mapa3[48][7] == 'O' && Py==48 && Px==8 && mapa3[Py][Px-1]!='*'){
             Px=36, Py=56;
@@ -421,7 +433,15 @@ printf("\033[0m");
 
 
 
+
+
+
+
 void movRand(){
+
+
+
+
 
 
 
@@ -457,7 +477,15 @@ void movRand(){
 
 
 
+
+
+
+
 void jogar2() {
+
+
+
+
 
 
 
@@ -589,6 +617,14 @@ void jogar2() {
 
 
 
+
+
+
+
+
+
+
+
     break;
         case 'R':
         case 'r':
@@ -622,8 +658,16 @@ void jogar2() {
 
 
 
+
+
+
+
 void jogar1()  {
   printf("Fase 1!\n");
+
+
+
+
 
 
 
@@ -779,6 +823,10 @@ void jogar1()  {
 
 
 
+
+
+
+
 void tutorial() {
 system("cls");
 printf ("\t\tComo jogar? \n");
@@ -845,7 +893,15 @@ printf("  \\____________________________________________________________________
 
 
 
+
+
+
+
 system("pause");
+
+
+
+
 
 
 
@@ -855,7 +911,15 @@ jogar1();
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -903,12 +967,24 @@ printf("\n");
 
 
 
+
+
+
+
     system("pause");
 
 
 
 
+
+
+
+
 jogar3();
+
+
+
+
 
 
 
@@ -957,7 +1033,15 @@ printf("\n");
 
 
 
+
+
+
+
 system("pause");
+
+
+
+
 
 
 
@@ -967,7 +1051,15 @@ jogar2();
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -977,7 +1069,15 @@ int main() {
 
 
 
+
+
+
+
 char opcao;
+
+
+
+
 
 
 
@@ -996,6 +1096,8 @@ char opcao;
     
 
 
+
+
     printf("\n\n");
         printf("\t\t\t\t\t\t         -----------------------------\n\n");
         Sleep(300);
@@ -1011,11 +1113,15 @@ char opcao;
 		printf("\t\t\t\t\t\t\t         |===========|\n\n");
 
 
+
+
         Sleep(300);
         printf("\t\t\t\t\t\t\t         |===========|\n");
 		printf("\t\t\t\t\t\t\t         |   SAIR    |\n");
 		printf("\t\t\t\t\t\t\t         |     0     |\n");
 		printf("\t\t\t\t\t\t\t         |===========|\n\n");
+
+
 
 
         Sleep(300);
@@ -1049,4 +1155,3 @@ char opcao;
   } while (opcao != 0);
   return 0;
 }
-
