@@ -768,24 +768,24 @@ void jogar1()  {
 void tutorial() {
 system("cls");
 printf ("\t\tComo jogar? \n");
-printf("1. O jogo é composto por três fases. \n");
-printf("Em cada fase, o jogador deverá se movimentar pelo labirinto para coletar o mecanismo que o faça abrir a porta. \n");
+printf("1. O jogo Ã© composto por trÃªs fases. \n");
+printf("Em cada fase, o jogador deverÃ¡ se movimentar pelo labirinto para coletar o mecanismo que o faÃ§a abrir a porta. \n");
 printf("E cuidado com os monstros. \n");
-printf("2. O objetivo do jogo é encontrar as chaves e sair vivo! \n");
-printf("3. O jogo possui os seguintes controles: \n- W: O jogador deverá movimentar uma unidade para cima. \n");
+printf("2. O objetivo do jogo Ã© encontrar as chaves e sair vivo! \n");
+printf("3. O jogo possui os seguintes controles: \n- W: O jogador deverÃ¡ movimentar uma unidade para cima. \n");
 printf("- A: Uma unidade para esquerda. \n- S: Uma unidade para baixo. \n- D: Uma unidade para direita. \n");
-printf("- I: O jogador interage com o objeto que está em cima (coleta a chave). \n");
+printf("- I: O jogador interage com o objeto que estÃ¡ em cima (coleta a chave). \n");
 printf("- @: Chave para destravar a porta. Encontre-a! \n");
 printf("- *: Parede. \n");
 printf("- D: Porta fechada. \n");
 printf("- =: Porta aberta. \n");
-printf("- O: Botão. \n");
+printf("- O: BotÃ£o. \n");
 printf("- #: Espinho encontrado dentro do mapa. \n");
 printf("- >: Teletransporte. \n");
-printf("- O jogador é representado pelo símbolo '&'. \n");
-printf("- O monstro do nível 1 é representado pelo símbolo 'X'. Evite-o! \n");
-printf("- O monstro do nível 2 é representado pelo símbolo 'V'. Evite-o! \n");
-printf("- Toda vez que a o encontro com o espinho '#', o HP do jogador é diminuído em -1. Quando zerado, o jogo é reiniciado. \n");
+printf("- O jogador Ã© representado pelo sÃ­mbolo '&'. \n");
+printf("- O monstro do nÃ­vel 1 Ã© representado pelo sÃ­mbolo 'X'. Evite-o! \n");
+printf("- O monstro do nÃ­vel 2 Ã© representado pelo sÃ­mbolo 'V'. Evite-o! \n");
+printf("- Toda vez que a o encontro com o espinho '#', o HP do jogador Ã© diminuÃ­do em -1. Quando zerado, o jogo Ã© reiniciado. \n");
 printf("Boa sorte e boa aventura! \n");
 }
 void introd(){
@@ -825,7 +825,7 @@ printf("                |\\             \n");
 printf("    ___________/  \\___________________________________ ____________________________________________________________________________________________________\n");
 printf("   /         Seja bem-vindo a Floresta Magica, viajante corajoso. Sou Gaia, guardia destas terras encantadas, e estou aqui para orienta-lo em sua jornada.   \\ \n");
 printf("  | Neste reino de misterios e maravilhas, voce encontrara desafios que testarao nao apenas sua forca, mas tambem sua sabedoria e determinacao.               |\n");        
-printf("  |    Prepare-se para enfrentar criaturas misticas e desafios inimaginaveis enquanto busca derrotar os inimigos que ameaçam este lugar de magia e harmonia   |  \n");
+printf("  |    Prepare-se para enfrentar criaturas misticas e desafios inimaginaveis enquanto busca derrotar os inimigos que ameaÃ§am este lugar de magia e harmonia   |  \n");
 printf("  \\________________________________________________________________________________________________________________________________________________________/\n");
 
 
@@ -882,7 +882,7 @@ printf("\n");
     printf("      '--   ' . V.'.'   ' --  .               '               \n");
     printf("                |\\             \n");
     printf("    ___________/  \\___________________________________ ______________________________________________________________________\n");
-    printf("   /         Na densa teia da floresta, onde sombras dançam ao luar, a honra e apenas uma ilusao para os fracos..            \\ \n");
+    printf("   /         Na densa teia da floresta, onde sombras danÃ§am ao luar, a honra e apenas uma ilusao para os fracos..            \\ \n");
     printf("  | Prepare-se para enfrentar minha furia implacavel,pois e pela astucia e pela crueldade que eu domino este reino de sombras.|\n");
     printf("  \\___________________________________________________________________________________________________________________________/\n");
 
